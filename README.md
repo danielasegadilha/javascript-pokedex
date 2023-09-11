@@ -1,26 +1,18 @@
-# Pokedex
 
----
+# ⚡️ Pokedex
+![Status In Progress](https://camo.githubusercontent.com/bc90b37acfe8fb974eef3c46ac5e7029befcfdbf61afa3e5516a2a30735b3554/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f7374617475732d696e5f70726f67726573732d79656c6c6f77) ![Javascript](https://camo.githubusercontent.com/48b1942ea65037185f96e898bb8d4d67d415258ba3d4a5f3b593d4e38123c3e0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d616465253230776974682d4a6176615363726970742d79656c6c6f77) ![CSS](https://camo.githubusercontent.com/931497f7d2ae0dde93ac07a9db54f4b51a241d26a8e7a36a7c89a09cb271a3b2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d616465253230776974682d4353532d626c7565)
+![HTML](https://camo.githubusercontent.com/e62fa20d330294b7e52d34db9539d283f01d87af92b5ed71a47639d8004ce3f3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d616465253230776974682d48544d4c2d726564)
 
-### [DIO](https://web.dio.me/) Bootcamp project
 
-#### Resume 📑
+> Part of [DIO](https://web.dio.me/) Bootcamp full-stack Angular + Java project.
 
-<div align= "justify">
-    The project consists of simulating a pokedex, from the Pokemon cartoon. The pokedex shows the pokemons and their characteristics, and it is possible to select a pokemon from the catalog to read its attributes.
-</div><br>
+## 👩‍💻 The project
 
-#### The project 💻
+    The project consists on simulating a pokedex from Pokemon, and its coded in Javascript. All data is called through Pokeapi.
 
-<div style="display: inline_block">
-    <h4> Skills
-    <img align="center" alt="HTML" height="20" width="20" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-    <img align="center" alt="CSS" height="20" width="20" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-    <img align="center" alt="Js" height="20" width="20" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-</div>
+![Texto alternativo](assets/img/pokedex.jpg)
+### 💻 Technologies
 
-<div align= "justify">
-    Bootcamp step to improve knowledge of javascript, html, css and git. The entire project was carried out using the git terminal to work with the local and remote github repository. The http-server was also used to simulate the website server, where I worked with node.js to give user input.
-</div><br>
-
-> Gonna catch them all!
+- Javascript ![JavaScript](https://camo.githubusercontent.com/7658d1ad6a074f994045303c9ef58ed75a64f066052d2ec92c15d94af80e1a79/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4a6176615363726970742d4637444631453f7374796c653d666c6174266c6f676f3d6a617661736372697074266c6f676f436f6c6f723d626c61636b)
+- HTML ![HTML](https://camo.githubusercontent.com/6d4b375e37154764bda789068d8433023cc13b88f288228e5e0c88862ff227bc/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d48544d4c2d3233393132303f7374796c653d666c6174266c6f676f3d68746d6c35266c6f676f436f6c6f723d7768697465)
+- CSS ![Ícone CSS](https://camo.githubusercontent.com/13ddbb1d0a0717da45d4a1dfa69deccf127ed845290a240b78a5964a6a71edd6/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4353532d3135373242363f7374796c653d666c6174266c6f676f3d63737333266c6f676f436f6c6f723d7768697465)
