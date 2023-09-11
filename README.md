@@ -8,9 +8,10 @@
 
 ## 👩‍💻 The project
 
-    The project consists on simulating a pokedex from Pokemon, and its coded in Javascript. All data is called through Pokeapi.
+    The project consists on simulating a pokedex from Pokemon. All data is called through Pokeapi.
 
 ![Texto alternativo](assets/img/pokedex.jpg)
+
 ### 💻 Technologies
 
 - Javascript ![JavaScript](https://camo.githubusercontent.com/7658d1ad6a074f994045303c9ef58ed75a64f066052d2ec92c15d94af80e1a79/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4a6176615363726970742d4637444631453f7374796c653d666c6174266c6f676f3d6a617661736372697074266c6f676f436f6c6f723d626c61636b)
