@@ -3,22 +3,87 @@
     box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+button {
+  border: none;
+  background-color: #F9FAFA;
+}
+
 body {
-    background-color: #f6f8fc;
+  width: 100vw;
+  min-height: 100vh;
+  min-width: 280px;
+  padding: 0 1rem;
+  overflow-x: hidden;
 }
 
-.content {
-    width: 100vw;
-    height: 100vh;
-    padding: 1rem;
-    background-color: #fff;
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-@media screen and (min-width: 992px) {
-    .content {
-        max-width: 992px;
-        height: auto;
-        margin: 1rem auto;
-        border-radius: 1rem;
-    }
+.d-flex-center {
+  display: flex;
+  justify-content: center;
+  gap: 3vw;
+  align-items: center;
+}
+
+header {
+  padding: 1rem 1.5rem;
+}
+
+.logo {
+  width: calc(4rem + 1.8vw);
+}
+
+.small {
+    font-size: clamp(10px, 2vw, 12px);
+}
+
+.border-radius {
+  border-radius: 50px;
+}
+
+.name {
+  text-transform: capitalize;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+h1 {
+  margin: .37em 0;
+}
+
+h3 {
+  margin: 2.5rem 0 2rem;
+}
+
+/**scrollbar styling**/
+
+::-webkit-scrollbar {
+  background-color: var(--background-color);
+  width: clamp(5px, 3px + 0.5vw, 8px);
+}
+::-webkit-scrollbar-track {
+  background-color: var(--background-color);
+}
+::-webkit-scrollbar-thumb {
+  background-color: #bcb9b9;
+  border-radius: 10px; 
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #666666; 
 }

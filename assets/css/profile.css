@@ -1,0 +1,143 @@
+body {
+    padding: 0;
+ }
+ 
+ main {
+    width: 100%;
+    height: 100%;
+}
+
+.padding {
+    padding: .4rem 1.5rem;
+}
+
+.stat {
+    padding-bottom: 0.9em;
+}
+
+section.content {
+    position: relative;
+    margin-top: 11rem;
+    padding: .30rem 0;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.img-pokemon {
+    position: absolute;
+    top: -159px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 200px;
+}
+
+
+.pokemon-info {
+    padding: 2rem 1.5rem 1rem;
+}
+
+.types {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.pokemon-info .types .type {
+    width: clamp(100px, 10vw, 200px);
+}
+
+.active  {
+    color: #F9FAFA;
+    width: 100%;
+  }
+
+ol.sections {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sections-info {
+    margin-top: 4rem;
+}
+
+
+#click {
+    min-height: 43vh;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+li:last-of-type {
+    padding-bottom: .25rem;
+}
+
+.stat-span {
+    min-width: 45px;
+}
+
+.progress-bar-hp, .progress-bar-atk, .progress-bar-atk, .progress-bar-def, .progress-bar-sdef, .progress-bar-spd, .progress-bar-satk {
+    height: 10px;
+    background-color: #EFEFEF;
+    display: flex;
+    width: 70%;
+}
+
+@media (min-width: 850px) {
+    .progress-bar-hp, .progress-bar-atk, .progress-bar-atk, .progress-bar-def, .progress-bar-sdef, .progress-bar-spd, .progress-bar-satk {
+        width: 85%;
+    }
+}
+
+.progress-bar-hp::before, .progress-bar-atk::before, .progress-bar-atk::before, .progress-bar-def::before, .progress-bar-sdef::before, .progress-bar-spd::before, .progress-bar-satk::before {
+    content: "";
+    border-radius: 50px;
+    background: linear-gradient(to right, #646464 20%,#a3a3a3 100%)
+}
+
+.progress-bar-hp::before{
+    width: calc(var(--progress-hp) * 1%);
+}
+
+.progress-bar-atk::before{
+    width: calc(var(--progress-atk) * 1%);
+}
+
+.progress-bar-def::before{
+    width: calc(var(--progress-def) * 1%);
+}
+
+.progress-bar-satk::before{
+    width: calc(var(--progress-satk) * 1%);
+}
+
+.progress-bar-sdef::before{
+    width: calc(var(--progress-sdef) * 1%);
+}
+
+.progress-bar-spd::before{
+    width: calc(var(--progress-spd) * 1%);
+}
+
+@media (min-width: 992px) {
+
+    body {
+        padding: 0 15rem 0;
+    }
+
+    section.content {
+        padding: .30rem 5.5rem;
+        margin-top: 17rem;
+    }
+
+    .img-pokemon {
+        height: 300px;
+        top: -240px;
+    }
+    
+}
