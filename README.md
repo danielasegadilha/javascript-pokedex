@@ -14,3 +14,26 @@
 
 ![Texto alternativo](assets/img/pokedex.jpg)
 
+## 🛠️ Technologies Used
+
+- HTML
+- CSS
+- JavaScript Vanilla
+- [PokéAPI](https://pokeapi.co/)
+
+## 🗂️ Classes Overview
+
+The project includes the following classes:
+
+- **class-pokemon.js**: Defines the structure and methods for Pokémon objects.
+- **main.js**: Handles the main application logic and navigation.
+- **poke-api-profile.js**: Manages the Pokémon profile data fetching and rendering.
+- **poke-api.js**: Contains functions for interacting with the PokéAPI.
+- **pokemon-profile.js**: Displays detailed information about a selected Pokémon.
+
+
+
+
+
+
+
