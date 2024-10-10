@@ -1,7 +1,9 @@
 
 # ⚡️ Pokedex
-![Status In Progress](https://camo.githubusercontent.com/bc90b37acfe8fb974eef3c46ac5e7029befcfdbf61afa3e5516a2a30735b3554/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f7374617475732d696e5f70726f67726573732d79656c6c6f77) ![Javascript](https://camo.githubusercontent.com/48b1942ea65037185f96e898bb8d4d67d415258ba3d4a5f3b593d4e38123c3e0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d616465253230776974682d4a6176615363726970742d79656c6c6f77) ![CSS](https://camo.githubusercontent.com/931497f7d2ae0dde93ac07a9db54f4b51a241d26a8e7a36a7c89a09cb271a3b2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d616465253230776974682d4353532d626c7565)
-![HTML](https://camo.githubusercontent.com/e62fa20d330294b7e52d34db9539d283f01d87af92b5ed71a47639d8004ce3f3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d616465253230776974682d48544d4c2d726564)
+![Status In Progress](https://img.shields.io/badge/status-in_progress-yellow) 
+![JavaScript](https://img.shields.io/badge/JavaScript-FFFF00?style=flat&logo=javascript&logoColor=black)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css3&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white)
 
 
 > Part of [DIO](https://web.dio.me/) Bootcamp full-stack Angular + Java project.
